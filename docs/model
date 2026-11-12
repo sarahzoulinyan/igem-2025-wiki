@@ -478,7 +478,7 @@
 <p>To translate the conceptual thermal framework into quantitative results, we developed a numerical simulation of Biot number variation under Martian environmental conditions. By iterating across a range of realistic h, k, and L values, we can visualize how different materials behave thermally when scaled to both laboratory and mission-scale reactors.
 </p>
 
-    <img class="figure-img-ctr" style="max-width: 70%;" rc="https://static.igem.wiki/teams/5717/modeling/blot-number-borosilicate-glass.avif" alt="borosilicate">
+    <img class="figure-img-ctr" style="max-width: 70%;" src="https://static.igem.wiki/teams/5717/modeling/blot-number-borosilicate-glass.avif" alt="borosilicate">
     <figcaption class="figure-caption">Figure 9.1. Biot Number (Borosilicate Glass)</figcaption>
 
     <img class="figure-img-ctr" style="max-width: 70%;" src="https://static.igem.wiki/teams/5717/modeling/blot-number-ss304-stainless-steel.avif" alt="SS304">
