@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 31387)
+Total output lines: 1316
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -50,15 +53,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="description">Description</a></li>
+        <li class="nav-item"><a class="nav-link" href="description.html">Description</a></li>
 
         <!-- Project dropdown -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="nav-project" role="button"
              data-bs-toggle="dropdown" aria-expanded="false">Project</a>
           <ul class="dropdown-menu" aria-labelledby="nav-project">
-            <li><a class="dropdown-item" href="contribution">Contribution</a></li>
-            <li><a class="dropdown-item" href="engineering">Engineering</a></li>
+            <li><a class="dropdown-item" href="contribution.html">Contribution</a></li>
+            <li><a class="dropdown-item" href="engineering.html">Engineering</a></li>
           </ul>
         </li>
 
@@ -67,8 +70,8 @@
           <a class="nav-link dropdown-toggle" href="#" id="nav-specializations" role="button"
              data-bs-toggle="dropdown" aria-expanded="false">Specializations</a>
           <ul class="dropdown-menu" aria-labelledby="nav-specializations">
-            <li><a class="dropdown-item" href="hardware">Hardware</a></li>
-            <li><a class="dropdown-item" href="model">Modeling</a></li>
+            <li><a class="dropdown-item" href="hardware.html">Hardware</a></li>
+            <li><a class="dropdown-item" href="model.html">Modeling</a></li>
           </ul>
         </li>
 
@@ -625,49 +628,7 @@
                   <br>       
 
           <h5 class="h5">Build</h5>
-            <p><b>This section serves as a complete build guide. All step 3D files and 3MF print files are included at the end of this section. If a separate assembly manual is needed, this portion along with the corresponding electronic circuit assembly guide has also been compiled into a seperate PDF for reference.</b></p>
-            <p class="listtitle">Construction Process:</p>
-              <ol>
-                <li>The entire structure was first printed in PLA to test fitment, alignment, and tolerances between components.</li>
-                <li>Magnets and magnetic strips were affixed using industrial adhesive.</li>
-                <li>M3 injection-molded nuts were installed.</li>
-                <li>Full system assembly was tested.</li>
-              </ol>
-            <p>In the early stages of hardware development for MKIV, most of the work focused on <b>extensive CAD design and print verification</b>. From the initial prototype to the current iteration, the project has gone through over a hundred Fusion 360 file versions and ten major revisions. We define a major revision as a version that has been <b>fully printed and assembly-tested.</b></p> 
-              <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-22.webp">
-                <figcaption class="figure-caption">Figure 41. Printing Setting with The Pillars </figcaption>
-                  <br>
-              <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-23-min.webp">
-                <figcaption class="figure-caption">Figure 42. Printing Setting with The Rim </figcaption>
-                  <br>      
-              <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-24-min.webp">
-                <figcaption class="figure-caption">Figure 43. Biofilm Carrier Test Printing</figcaption>
-                  <br>        
-            <p>After each print, in addition to basic support removal, sanding, and surface finishing, we use a soldering iron tip to heat and insert threaded brass inserts. These inserts are commonly used in industrial plastic products to provide screw fastening for assembly or operational purposes. In the ARC main body, we standardized all fasteners to the M3 metric screw.</p>
-              <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-25-min.webp">
-                <figcaption class="figure-caption">Figure 44. Adding Insert Nuts with Soldering Iron Tip</figcaption>
-                   <br>   
-            <p>The Rim, Top Mount, and Base Cover <span class="span">all require the installation of threaded brass inserts</span>. After installing, each screw should be fully tightened and then removed once to ensure that the screw channels are clear.</p>
-            <p>The next step is to <b>install the magnets for the Pillars</b>. Each magnetic strip contains three magnets, which are then secured with a cover piece. The magnets are installed using adhesive. <span class="span">It is crucial to pay close attention to the N-S orientation of each magnet</span>. </p>
-              <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-26-min.webp">
-                <figcaption class="figure-caption">Figure 45. The magnetic strips on modules are installed using the same method.</figcaption>
-                  <br>  
-            <p>The next step is to assemble the entire structure. Slide the Rim onto the beaker from the bottom, then place the Top Mount on top and partially tighten the screws. Next, insert the six pillars into the Base. If the base circuitry is already prepared, secure the Pillars with screws. Align the six upper Pillar sockets beneath the Rim and insert them carefully. <b>Once all Pillars are in place, fully tighten the remaining Top Mount screws to complete the assembly.</b></p>
-              <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-27-min.webp">
-                <figcaption class="figure-caption">Figure 46. Base with all six pillars installed</figcaption>
-                  <br>  
-            <p>Finally, depending on the specific ARC configuration being built, <span class="span">select and install the appropriate top attachments, such as the agitator, aeration or tubing connectors, bubbler stone, and other functional fittings as required.</span></p>
-            
-          <h5 class="h5">Test</h5>
-            <p class="listtitle">During testing, we identified several issues, with the most significant ones listed below:</p>
-              <ul>
-                <li>
-                  Starting from the top section, we found that the agitator was difficult to secure. In addition to limiting its horizontal movement, we also needed to find a way to vertically fix it to the top mount. Furthermore, the agitator's rotational speed was too low, and due to the limited space on the top surface, our options for compatible motors were very restricted.
-                  <img class="figure-img-ctr" src="https://static.igem.wiki/teams/5717/engineeringsuccess/productdevelopment/figure-28-min.webp">
-                    <figcaption class="figure-caption">Figure 47. The Agitator</figcaption>
-                      <br> 
-                </li>
-                <li>Initially, we designed the Rim and Top Mount to be autoclaved together with the beaker, along with the internal tubing. However, during assembly, we discovered that the Rim, which is slightly larger than the beaker's diameter, often slipped off. To address this, we needed a locking mechanism. We tried 3D-printed clips, but they were too tight and made disassembly difficult. Moreover, if the Rim were made of aluminum alloy, they would be too rigid to flex during installation.</li>
+           …1387 tokens truncated…ed together with the beaker, along with the internal tubing. However, during assembly, we discovered that the Rim, which is slightly larger than the beaker's diameter, often slipped off. To address this, we needed a locking mechanism. We tried 3D-printed clips, but they were too tight and made disassembly difficult. Moreover, if the Rim were made of aluminum alloy, they would be too rigid to flex during installation.</li>
                 <li>Even after adding the pillars to secure the Rim and Top Mount, the internal beaker still wobbled due to the small gap between it and the top structure, significantly reducing overall stability. </li>
                 <li>When the bioreactor was tilted at certain angles, we found that the magnetic force between modules was insufficient, causing them to occasionally detach. </li>
               </ul>
