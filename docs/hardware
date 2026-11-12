@@ -1925,7 +1925,7 @@
                 </div>
             </div>
             <div class="overlay-image" data-slide="1">
-                <img src="https://static.igem.wiki/teams/5717/hardware/slideshow/imageplustitle/hardware-copy-3-014.avif" alt="">
+                <img src="https://static.igem.wiki/teams/5717/hardware/slideshow/imageplustitle/hardware-copy-3-015.avif" alt="">
                 <div class="overlay-text-right">
                     <p>Each COB LED module is equipped with a 12V 16W COB LED panel capable of delivering up to 1000 lumens of brightness. At the working distance within ARC, a single panel can provide up to 37 klux of brightness, which is more than sufficient to support Synechococcus which requires 3000 lux. In the final tests, only 20% brightness was needed to achieve optimal illumination with 2 modules.</p>
                 </div>
